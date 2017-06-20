@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_cal"
+            android:icon="@drawable/cale"
+            android:title="Calender" />
+        <item
+            android:id="@+id/nav_conference"
+            android:icon="@drawable/pod"
+            android:title="Conference" />
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/quest"
+            android:title="FAQ's" />
+        <item
+            android:id="@+id/nav_app"
+            android:icon="@drawable/apply"
+            android:title="How to Apply" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/maps"
+            android:title="Locations" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/products"
+            android:title="Products and Services" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/courses"
+            android:title="Scheduled Courses" />
+        <item
+            android:id="@+id/nav_job"
+            android:icon="@drawable/job"
+            android:title="Job Vacancy" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/consum"
+            android:title="Contact Us" />
+
+    </group>
+
+</menu>

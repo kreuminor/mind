@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jm.mind.mobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        //Splash Screen
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //Main Activites
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConferenceActivity"
+            android:label="@string/title_activity_conference" />
+        <activity
+            android:name="com.mikepenz.aboutlibraries.ui.LibsActivity"
+            android:label="@string/title_activity_conference" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/action_about">
+            '
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".speaker.SpeakerActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".ContactActivity1" />
+        <activity android:name=".social.FacebookActivity" />
+        <activity android:name=".social.TweetActivity" />
+        <activity android:name=".social.YoutubeActivity" />
+        <activity android:name=".faq.FaqActivity" />
+        <activity android:name=".html.BurgerKing" />
+        <activity android:name=".html.kfcActivity" />
+        <activity android:name=".html.heartActivity" />
+        <activity android:name=".html.guardianActivity" />
+        <activity android:name=".html.glassActivity" />
+        <activity android:name=".html.udcActivity" />
+        <activity android:name=".SponsorActivity" />
+        <activity android:name=".evaluation.Registration" />
+        <activity android:name=".evaluation.Evaluation" />
+        <activity android:name=".ConferenceMain" />
+        <activity android:name=".apply.ApplyActivity" />
+        <activity android:name=".about.MissionActivity" />
+        <activity android:name=".about.VisionActivity" />
+        <activity android:name=".about.ValuesActivity" />
+        <activity android:name=".products.ProductActivity" />
+        <activity android:name=".courses.CourseActivity" />
+        <activity android:name=".courses.DetailActivity" />
+        <activity android:name=".calender.AnnounceActivity" />
+        <activity android:name=".vacancy.VacancyActivity" />
+        <activity android:name=".Maps2Activity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".location.MapsCActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".location.MapsAActivity"
+            android:label="@string/title_activity_maps" />
+    </application>
+
+</manifest>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MIND Institute</string>
+    <string name="title_activity_conference">ConferenceActivity</string>
+    <string name="action_about">About Us</string>
+    <string name="action_more">Settings</string>
+    <string name="speaker_title">Speaker:</string>
+    <string name="text_title">Description:</string>
+    <string name="location">&#160;\u2022 %1$s</string>
+    <string name="day">Day %1$d</string>
+
+    <string name="closeDrawer">Navigation View Closed</string>
+    <string name="openDrawer">Navigation View Opened</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- about -->
+    <string name="venue">Our Location</string>
+    <string name="venue_text">MIND Institute is located on Old Hope Road\n\nKingston, Jamaica</string>
+    <string name="opensource">Our Sponsors</string>
+    <string name="opensource_text">List of this years sponsors.</string>
+
+    <string name="mission">Our Mission</string>
+    <string name="mission_text">To provide public servants with quality leadership....</string>
+
+    <string name="vision">Our Vision</string>
+    <string name="vision_text">To be the pre-eminent and preferred public.....</string>
+
+    <string name="values">Our Values</string>
+    <string name="values_text">Our values define who we are. They are the fundamental...</string>
+
+    <string name="author">Author</string>
+    <string name="author_text">This app has been developed by Colin Holness.</string>
+    <string name="evaluation">Evaluation</string>
+    <string name="evaluation_text">Please give us feedback on the event via this form.</string>
+    <string name="coffee_break">Coffee break</string>
+    <string name="lunch">Lunch</string>
+    <string name="tba">t.b.a.</string>
+    <string name="program_d2">CLICK HERE FOR PROGRAM DAY 2 !</string>
+
+
+    <!-- transition name -->
+    <string name="toolbar">toolbar</string>
+    <string name="image">image</string>
+    <string name="image1">image1</string>
+    <string name="headline">headline</string>
+    <string name="speaker">speaker</string>
+    <string name="description">description</string>
+
+    <!-- notification -->
+    <string name="notification_title">Thank you for attending Mind Conference 2017</string>
+    <string name="notification_text">We hope you can help us improve the event by providing some feedback information</string>
+
+    <!-- libraries -->
+    <string name="define_OpenCSV" />
+    <string name="library_OpenCSV_author">Bytecode Pty Ltd</string>
+    <string name="library_OpenCSV_libraryName">OpenCSV</string>
+    <string name="library_OpenCSV_libraryDescription">opencsv is a very simple csv (comma-separated values) parser library for Java.</string>
+    <string name="library_OpenCSV_libraryVersion">3.1</string>
+    <string name="library_OpenCSV_libraryWebsite">http://opencsv.sourceforge.net/</string>
+    <string name="library_OpenCSV_licenseId">apache_2_0</string>
+    <string name="library_OpenCSV_isOpenSource">true</string>
+    <string name="library_OpenCSV_repositoryLink">http://opencsv.sourceforge.net</string>
+
+
+    <string name="define_PrettySharedPreferences" />
+    <string name="library_PrettySharedPreferences_author">Jamaica</string>
+    <string name="library_PrettySharedPreferences_libraryName">Kentucky Fried Chicken</string>
+    <string name="library_PrettySharedPreferences_libraryDescription">PrettySharedPreferences is a lightweight library to help you deal with SharedPreferences more easily and reduce boilerplate code.</string>
+    <string name="library_PrettySharedPreferences_libraryVersion">1.0.1</string>
+    <string name="library_PrettySharedPreferences_libraryWebsite">http://www.kfcjamaica.com/</string>
+    <string name="library_PrettySharedPreferences_licenseId">apache_2_0</string>
+    <string name="library_PrettySharedPreferences_isOpenSource">true</string>
+    <string name="library_PrettySharedPreferences_repositoryLink">https://github.com/talenguyen/PrettySharedPreferences</string>
+
+
+    <string name="define_PrettySharedPreferences1" />
+    <string name="library_PrettySharedPreferences_author1">Jamaica</string>
+    <string name="library_PrettySharedPreferences_libraryName1">Burger King</string>
+    <string name="library_PrettySharedPreferences_libraryDescription1">PrettySharedPreferences is a lightweight library to help you deal with SharedPreferences more easily and reduce boilerplate code.</string>
+    <string name="library_PrettySharedPreferences_libraryVersion1">1.0.1</string>
+    <string name="library_PrettySharedPreferences_libraryWebsite1">http://www.kfcjamaica.com/</string>
+    <string name="library_PrettySharedPreferences_licenseId1">apache_2_0</string>
+    <string name="library_PrettySharedPreferences_isOpenSource1">true</string>
+    <string name="library_PrettySharedPreferences_repositoryLink1">https://github.com/talenguyen/PrettySharedPreferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title">Changing MINDSets. Challenging Assumptions, Creating Transformation</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!-- Sponsors -->
+    <string name="sponsor">Kentuky Fried Chicken</string>
+    <string name="sponor_text">Its fingerlicking good.............”</string>
+    <string name="sponsor1">Burger King</string>
+    <string name="sponsor1_text">Every day, more than 11 million guests visit BURGER KING® restaurants around the world.</string>
+    <string name="sponsor2">HEART Trust/NTA</string>
+    <string name="sponsor2_text">Skill is Power.....</string>
+    <string name="sponsor3">Urban Development Coroporation</string>
+    <string name="sponsor3_text">Making Development Happen.....</string>
+    <string name="sponsor4">Broadbent Eye Glasees</string>
+    <string name="sponor4_text">Seeing is believing...........”</string>
+    <string name="sponsor5">Guardian Insurance</string>
+    <string name="sponor5_text">Life, Health, Pensio...........”</string>
+    <string name="sponsor6">Guardian Insurance</string>
+    <string name="sponor6_text">Life, Health, Pensio...........”</string>
+
+    // Survey
+    <string name="Survey_Title">CONFERENCE APPLICATION</string>
+    <string name="Survey_Title1">CONFERENCE SURVEY</string>
+    <string name="taking_survey">Registration is not complete unless payment is received; nonetheless cancellation not made at least ten (10) days before date of Conference will attract 50% of the cost. No refund for cancellation on the day of Conference</string>
+    <string name="taking_survey1">In order to continuously improve the MIND App, this survey has been developed to gather feedback regarding how well your experiences in using the App have met your expectations. We value your honest and detailed responses. Your responses are completely anonymous.</string>
+    <string name="taking_survey2">In order to continuously improve with our conferences, this survey has been developed to gather feedback regarding how well your experiences in using the App have met your expectations. We value your honest and detailed responses. Your responses are completely anonymous.</string>
+    <string name="promoter_prompt">Thank you for registering. Please rate us in the app store!</string>
+    <string name="detractor_prompt">We\'re sorry you\'re experiencing difficulties with our app, we promise to address the issues you experienced as quickly as possible.</string>
+    <string name="thanks_prompt">Thanks for responding to our survey!</string>
+    <string name="error_prompt">Application was not completed</string>
+
+    <string name="pressbackagain">Press back again to exit</string>
+
+    <string name="Announce">Announcements</string>
+    <!--School website-->
+    <string name="SchoolURL">http://hs.grandblancschools.org</string>
+
+    <!--Error handling-->
+    <string name="NoAnnouncements">No Announcements.</string>
+    <string name="NoVacancy">No Vacancy.</string>
+    <string name="AnnounceLoadError">Could not load announcements.</string>
+    <string name="VacancyLoadError">Could not load Vacancy.</string>
+    <string name="NoCalendar">Could not load calendar.</string>
+    <string name="NoTwitterRefresh">Could not reload tweets.</string>
+    <string name="Retry">Retry</string>
+
+
+    <string name="action_refresh">Refresh</string>
+
+</resources>

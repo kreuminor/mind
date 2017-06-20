@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/user1"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/conf"
+            android:title="Conference Schedule" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/maps"
+            android:title="Locations" />
+
+        <item
+            android:id="@+id/nav_sponsor"
+            android:icon="@drawable/handshake"
+            android:title="Our Sponsors" />
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/handshake"
+            android:title="Questions" />
+
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/reg"
+            android:title="Register Here" />
+
+        <item
+            android:id="@+id/nav_speakers"
+            android:icon="@drawable/speaks"
+            android:title="Speakers" />
+
+
+
+    </group>
+
+</menu>

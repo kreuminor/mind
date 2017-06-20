@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e4f94</color>
+    <color name="colorPrimaryDark">#1e4f94</color>
+    <color name="accentColor">#f7d600</color>
+    <color name="colorAccent">#c70039</color>
+    <color name="textColorPrimary">#FFF</color>
+    <color name="textColorSecondary">#121212</color>
+    <color name="textColorDetail">#424242</color>
+    <color name="windowBackground">#efebe9</color>
+    <color name="accentLight">#FF846F</color>
+    <color name="fab1_color">#4CAF50</color>
+    <color name="fab2_color">#91c7f3</color>
+    <color name="background">#005f97</color>
+
+    <color name="babbq_green">#5DB65F</color>
+    <color name="babbq_red">#FF543F</color>
+    <color name="babbq_blue">#4191C4</color>
+    <color name="babbq_yellow">#ffbf00</color>
+    <color name="babbq_orange">#f29d20</color>
+    <color name="babbq_purple">#664389</color>
+
+    <!-- New Splash Screen -->
+    <color name="bg_splash">#e5e7e9</color>
+    <color name="text">#1A5276</color>
+
+    <!-- Screens background -->
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#86f7d600</color>
+    <color name="bg_screen4">#2e86c1</color>
+    <color name="bg_screen5">#8e44ad</color>
+
+</resources>
